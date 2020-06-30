@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Viroo | Login</title>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <div>
+        <nav class='nav d-none d-md-flex'>
+            <div class="logo">
+                <h2 class='h2'>Viroo</h2>
+            </div>
+            <div class='navs'>
+                <ul class='nav-links'>
+                    <li class='nav-item' id='langNav'>
+                        <a href="#" >العربية</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a href="#" >About</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a href="#" >Work</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a href="#" >Login</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <nav class='nav d-xs-flex d-md-none'>
+            <div class="logo">
+                <h2 class='h2'>Viroo</h2>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <div class="row dropDown">
+            <div class='container-fluid'>
+                <div class='navs row'>
+                    <li class='col-12 mobile-nav-item langAr'>
+                        <a href="#" >العربية</a>
+                    </li>
+                    <li class='col-12 mobile-nav-item'>
+                        <a href="#" >About</a>
+                    </li>
+                    <li class=' col-12 mobile-nav-item'>
+                        <a href="#" >Work</a>
+                    </li>
+                    <li class='col-12 mobile-nav-item'>
+                        <a href="#" >Login</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <center>
+            <div class="login_container">
+                <div class="login_form_container">
+                    <form>
+                        <div class="login_header">
+                            <h2>Login</h2>
+                        </div>
+                        <div class="fields_container">
+                            <div class="field_container">
+                                <i class='icon-user'></i>
+                                <input type="text" placeholder="Username" name="">
+                            </div>
+                            <div class="field_container">
+                                <i class='icon-expeditedssl'></i>
+                                <input type="password" placeholder="Password" name="">
+                            </div>
+                            <div class="field_container switch_container">
+                                <p>Rememper me</p>
+                                <label class="switch">
+                                    <input id="loginCB" onclick="change('loginCB')" type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                            <div class="login_button_container">
+                                <button type="submit" class="color_1 color_1_h button"><i class="icon-key-1"> </i> Login</button>
+                            </div>
+                            <div class="field_container switch_container fgp">
+                                <a href="#">Forget password</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </center>
+    </section>
+
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/popper.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
